@@ -4,9 +4,9 @@ module.exports = {
     browser: true,
     es6: true,
     node: true,
-    'jest/globals': true,
+  //  'jest/globals': true,
   },
-  extends: ['plugin:react/recommended', 'airbnb', 'prettier'],
+  //extends: ['plugin:react/recommended', 'airbnb', 'prettier'],
   globals: {
     URL: false,
     BROWSER: false,
@@ -20,7 +20,7 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: 'module',
   },
-  plugins: ['react', 'jest'],
+  //plugins: ['react', 'jest'],
   rules: {
     'no-continue': 1,
     'no-cond-assign': 1,
