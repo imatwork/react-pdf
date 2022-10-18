@@ -10,6 +10,7 @@ import Resume from './resume';
 import Fractals from './fractals';
 import PageWrap from './pageWrap';
 import Table from './table';
+import DocProvider from './docProvider';
 
 const MOUNT_ELEMENT = document.getElementById('root');
 
@@ -22,6 +23,7 @@ const EXAMPLES = {
   pageWrap: PageWrap,
   fractals: Fractals,
   table: Table,
+  docProvider: DocProvider,
 };
 
 const Viewer = () => {
